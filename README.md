@@ -8,7 +8,11 @@ a simple library to convert queries into Json format directly
  
 #**SAMPLE USAGE**
 
-* Note: Create a static variable in startup.cs *
+* Note: Create a static variable in startup.cs 
+you also need to install SqlDataClient from nuget for the library to work
+
+Install-Package Microsoft.Data.SqlClient -Version 2.0.0
+*
  
 ```csharp
 public void ConfigureServices(IServiceCollection services)
